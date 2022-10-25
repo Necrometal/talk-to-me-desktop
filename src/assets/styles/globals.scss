@@ -1,0 +1,19 @@
+$enable-negative-margins: true;
+
+@import "~bootstrap/scss/bootstrap";
+@import 'darkmode';
+@import 'y-slide';
+@import 'partials/variables';
+@import 'partials/globals';
+@import 'partials/loader';
+@import 'partials/switchmode';
+@import 'partials/description';
+
+#__next {
+  position: relative !important;
+  // background-color: white;
+}
+
+html, body, #__next {
+  height: 100% !important;
+}

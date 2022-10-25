@@ -1,0 +1,20 @@
+.container {
+  background-color: rgba(70, 70, 70, 0.3);
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 0 1 auto
+}
+
+.disconnect {
+  background-color: transparent;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+.disconnect:hover {
+  background-color: rgba(70, 70, 70, 0.3);
+}

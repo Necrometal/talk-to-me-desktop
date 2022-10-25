@@ -1,0 +1,50 @@
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex: 1 1 auto;
+  background-color: rgba(0, 217, 255, 0.117);
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.conversationItemContainer {
+  transition-duration: 0.2s;
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+
+.conversationItemContainer:hover {
+  cursor: pointer;
+  background-color: #c6c6c633;
+}
+
+.conversationItemAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.conversationAvatarContainer {
+  width: 20%;
+  justify-content: center;
+  display: flex;
+}
+
+.conversationItemElement {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userFriend {
+  font-size: 16px;
+}
+
+.lastMessage {
+  font-size: 13px;
+  color: #757575;
+}
